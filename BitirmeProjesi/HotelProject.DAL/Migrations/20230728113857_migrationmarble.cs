@@ -1,9 +1,5 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
-
-#nullable disable
-
-namespace HotelProject.DAL.Migrations
+﻿using Microsoft.EntityFrameworkCore.Migrations;
+namespace OtomasyonProject.DAL.Migrations
 {
     public partial class migrationmarble : Migration
     {

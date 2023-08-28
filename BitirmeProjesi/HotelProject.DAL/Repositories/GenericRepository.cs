@@ -1,12 +1,8 @@
-﻿using HotelProject.DAL.Absctract;
-using HotelProject.DAL.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using OtomasyonProject.DAL.Absctract;
+using OtomasyonProject.DAL.Concrete;
 
-namespace HotelProject.DAL.Repositories
+namespace OtomasyonProject.DAL.Repositories
 {
     public class GenericRepository<T> : IGenericDAL<T> where T : class
     {

@@ -1,4 +1,4 @@
-﻿using HotelProject.DAL.Absctract;
+﻿using OtomasyonProject.DAL.Absctract;
 using OtomasyonProject.BLL.Abstract;
 using OtomasyonProject.EntityLayer.Concrete;
 using System;

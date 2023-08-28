@@ -12,3 +12,17 @@ C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.EntityLay
 C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.EntityLayer\obj\Debug\net6.0\OtomasyonProject.EntityLayer.pdb
 C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.EntityLayer\obj\Debug\net6.0\OtomasyonProject.EntityLayer.genruntimeconfig.cache
 C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.EntityLayer\obj\Debug\net6.0\ref\OtomasyonProject.EntityLayer.dll
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\bin\Debug\net6.0\OtomasyonProject.EntityLayer.deps.json
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\bin\Debug\net6.0\OtomasyonProject.EntityLayer.runtimeconfig.json
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\bin\Debug\net6.0\OtomasyonProject.EntityLayer.dll
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\bin\Debug\net6.0\OtomasyonProject.EntityLayer.pdb
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\obj\Debug\net6.0\OtomasyonProject.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\obj\Debug\net6.0\OtomasyonProject.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\obj\Debug\net6.0\OtomasyonProject.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\obj\Debug\net6.0\OtomasyonProject.EntityLayer.AssemblyInfo.cs
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\obj\Debug\net6.0\OtomasyonProject.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\obj\Debug\net6.0\OtomasyonProject.EntityLayer.dll
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\obj\Debug\net6.0\refint\OtomasyonProject.EntityLayer.dll
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\obj\Debug\net6.0\OtomasyonProject.EntityLayer.pdb
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\obj\Debug\net6.0\OtomasyonProject.EntityLayer.genruntimeconfig.cache
+C:\Users\w10\Desktop\BitirmeProjesi\BitirmeProjesi\OtomasyonProject.EntityLayer\obj\Debug\net6.0\ref\OtomasyonProject.EntityLayer.dll

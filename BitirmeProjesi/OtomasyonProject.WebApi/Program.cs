@@ -1,8 +1,8 @@
-using HotelProject.DAL.Absctract;
-using HotelProject.DAL.Concrete;
-using HotelProject.DAL.EntityFramework;
 using OtomasyonProject.BLL.Abstract;
 using OtomasyonProject.BLL.Concrete;
+using OtomasyonProject.DAL.Absctract;
+using OtomasyonProject.DAL.Concrete;
+using OtomasyonProject.DAL.EntityFramework;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,8 +12,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-//
-//builder.Services.AddDbContext<Context>();
+builder.Services.AddDbContext<Context>();
 
 builder.Services.AddScoped<IMarbleBlockDAL,EfMarbleBlockDal>();
 builder.Services.AddScoped<IMarbleBlockService,MarbleBlockManager>();

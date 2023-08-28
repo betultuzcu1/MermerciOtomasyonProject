@@ -1,8 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
-
-#nullable disable
-
-namespace HotelProject.DAL.Migrations
+namespace OtomasyonProject.DAL.Migrations
 {
     public partial class add_mig : Migration
     {

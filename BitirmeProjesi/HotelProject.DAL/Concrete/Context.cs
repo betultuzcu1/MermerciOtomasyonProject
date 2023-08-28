@@ -1,10 +1,9 @@
-﻿
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using OtomasyonProject.EntityLayer.Concrete;
 
 
-namespace HotelProject.DAL.Concrete
+namespace OtomasyonProject.DAL.Concrete
 {
 
     public class Context:IdentityDbContext<AppUser ,AppRole ,int>

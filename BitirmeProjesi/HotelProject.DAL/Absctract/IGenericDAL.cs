@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HotelProject.DAL.Absctract
+namespace OtomasyonProject.DAL.Absctract
 {
     public interface IGenericDAL<T> where T : class
     {

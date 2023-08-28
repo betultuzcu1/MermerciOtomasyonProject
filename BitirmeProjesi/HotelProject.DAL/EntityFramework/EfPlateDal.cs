@@ -1,14 +1,10 @@
-﻿using HotelProject.DAL.Absctract;
-using HotelProject.DAL.Concrete;
-using HotelProject.DAL.Repositories;
+﻿using OtomasyonProject.DAL.Absctract;
+using OtomasyonProject.DAL.Concrete;
+using OtomasyonProject.DAL.Repositories;
 using OtomasyonProject.EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace HotelProject.DAL.EntityFramework
+
+namespace OtomasyonProject.DAL.EntityFramework
 {
     public class EfPlateDal : GenericRepository<Plate>, IPlateDAL
     {

@@ -1,11 +1,7 @@
-﻿using HotelProject.DAL.Absctract;
+﻿using OtomasyonProject.DAL.Absctract;
 using OtomasyonProject.BLL.Abstract;
 using OtomasyonProject.EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace OtomasyonProject.BLL.Concrete
 {

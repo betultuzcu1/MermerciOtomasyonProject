@@ -1,6 +1,4 @@
-
-
-using HotelProject.DAL.Concrete;
+using OtomasyonProject.DAL.Concrete;
 using OtomasyonProject.EntityLayer.Concrete;
 using AppUser = OtomasyonProject.EntityLayer.Concrete.AppUser;
 
