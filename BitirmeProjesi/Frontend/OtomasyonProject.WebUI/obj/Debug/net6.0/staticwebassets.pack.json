@@ -21097,6 +21097,166 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\about.html",
+      "PackagePath": "staticwebassets\\simple_house\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\contact.html",
+      "PackagePath": "staticwebassets\\simple_house\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\simple_house\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\css\\templatemo-style.css",
+      "PackagePath": "staticwebassets\\simple_house\\css\\templatemo-style.css"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\about-01.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\about-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\about-02.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\about-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\about-03.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\about-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\about-04.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\about-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\about-05.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\about-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\about-06.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\about-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\dummy-img.png",
+      "PackagePath": "staticwebassets\\simple_house\\img\\dummy-img.png"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\gallery\\01.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\gallery\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\gallery\\02.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\gallery\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\gallery\\03.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\gallery\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\gallery\\04.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\gallery\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\gallery\\05.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\gallery\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\gallery\\06.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\gallery\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\gallery\\07.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\gallery\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\gallery\\08.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\gallery\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\img-01.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\img-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\simple-house-01.jpg",
+      "PackagePath": "staticwebassets\\simple_house\\img\\simple-house-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\img\\simple-house-logo.png",
+      "PackagePath": "staticwebassets\\simple_house\\img\\simple-house-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\index.html",
+      "PackagePath": "staticwebassets\\simple_house\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\simple_house\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\js\\parallax.min.js",
+      "PackagePath": "staticwebassets\\simple_house\\js\\parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\Frontend\\OtomasyonProject.WebUI\\wwwroot\\simple_house\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\simple_house\\webfonts\\fa-solid-900.woff2"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.OtomasyonProject.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
