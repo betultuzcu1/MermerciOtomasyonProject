@@ -1,0 +1,17 @@
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\bin\Debug\net6.0\HotelProject.DAL.deps.json
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\bin\Debug\net6.0\HotelProject.DAL.runtimeconfig.json
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\bin\Debug\net6.0\HotelProject.DAL.dll
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\bin\Debug\net6.0\HotelProject.DAL.pdb
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\bin\Debug\net6.0\OtomasyonProject.EntityLayer.dll
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\bin\Debug\net6.0\OtomasyonProject.EntityLayer.pdb
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\obj\Debug\net6.0\HotelProject.DAL.csproj.AssemblyReference.cache
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\obj\Debug\net6.0\HotelProject.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\obj\Debug\net6.0\HotelProject.DAL.AssemblyInfoInputs.cache
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\obj\Debug\net6.0\HotelProject.DAL.AssemblyInfo.cs
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\obj\Debug\net6.0\HotelProject.DAL.csproj.CoreCompileInputs.cache
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\obj\Debug\net6.0\HotelProject.DAL.csproj.CopyComplete
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\obj\Debug\net6.0\HotelProject.DAL.dll
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\obj\Debug\net6.0\refint\HotelProject.DAL.dll
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\obj\Debug\net6.0\HotelProject.DAL.pdb
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\obj\Debug\net6.0\HotelProject.DAL.genruntimeconfig.cache
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\HotelProject.DAL\obj\Debug\net6.0\ref\HotelProject.DAL.dll

@@ -1,0 +1,50 @@
+﻿@model List<MarbleBlockVM>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h4>Marble Block</h4>
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Width</th>
+                    <th scope="col">Height</th>
+                    <th scope="col">Thickness</th>
+                    <th scope="col">Details</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.MarbleBlockId</td>
+                        <td>@item.Width</td>
+                        <td>@item.Height</td>
+                        <td>@item.Thickness</td>
+                        <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a></td>
+                        <td>
+                            <a href="/MarbleBlock/DeleteMarbleBlock/@item.MarbleBlockId" class="btn  mb-1 btn-rounded btn-outline-danger">Sil</a>
+                            <a href="/MarbleBlock/UpdateMarbleBlock/@item.MarbleBlockId" class="btn mb-1 btn-rounded btn-outline-success">Güncelle</a>
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+        <div>
+            <a href="/MarbleBlock/AddMarbleBlock/" class="btn mb-1 btn-rounded btn-outline-danger">Add Marble Block</a>
+        </div>
+        
+    </div>
+
+</div>
+
+
+

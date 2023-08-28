@@ -1,0 +1,31 @@
+﻿@model UpdateMarbleBlockVM
+@{
+    ViewData["Title"] = "UpdateMarbleBlock";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+
+
+
+<form method="post">
+    <input type="hidden" asp-for="MarbleBlockId"/>
+    <label>StockId</label>
+    <input type="text" asp-for="StockId" class="form-control" />
+    <br />
+    <label>Width</label>
+    <input type="text" asp-for="Width" class="form-control" />
+    <br />
+    <label>Height</label>
+    <input type="text" asp-for="Height" class="form-control" />
+    <br />
+    <label>Thickness</label>
+    <input type="text" asp-for="Thickness" class="form-control" />
+    <br />
+    <label>WarehouseSection</label>
+    <input type="text" asp-for="WarehouseSection" class="form-control" />
+    <br />
+    <button class="btn  mb-1 btn-rounded btn-primary">Update Marble Block</button>
+</form>
+
+
+

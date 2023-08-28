@@ -1,0 +1,17 @@
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\bin\Debug\net6.0\OtomasyonProject.DtoLayer.deps.json
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\bin\Debug\net6.0\OtomasyonProject.DtoLayer.runtimeconfig.json
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\bin\Debug\net6.0\OtomasyonProject.DtoLayer.dll
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\bin\Debug\net6.0\OtomasyonProject.DtoLayer.pdb
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\bin\Debug\net6.0\OtomasyonProject.EntityLayer.dll
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\bin\Debug\net6.0\OtomasyonProject.EntityLayer.pdb
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\obj\Debug\net6.0\OtomasyonProject.DtoLayer.csproj.AssemblyReference.cache
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\obj\Debug\net6.0\OtomasyonProject.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\obj\Debug\net6.0\OtomasyonProject.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\obj\Debug\net6.0\OtomasyonProject.DtoLayer.AssemblyInfo.cs
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\obj\Debug\net6.0\OtomasyonProject.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\obj\Debug\net6.0\OtomasyonProject.DtoLayer.csproj.CopyComplete
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\obj\Debug\net6.0\OtomasyonProject.DtoLayer.dll
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\obj\Debug\net6.0\refint\OtomasyonProject.DtoLayer.dll
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\obj\Debug\net6.0\OtomasyonProject.DtoLayer.pdb
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\obj\Debug\net6.0\OtomasyonProject.DtoLayer.genruntimeconfig.cache
+C:\Users\w10\Desktop\MermerciOtomasyon\BitirmeProjesi\OtomasyonProject.DtoLayer\obj\Debug\net6.0\ref\OtomasyonProject.DtoLayer.dll
