@@ -47,7 +47,10 @@
                                         <input type="password" class="form-control" placeholder="Password" asp-for="Password">
                                         <span asp-validation-for="Password" class="text-danger"></span>
                                     </div>
-                                    <button class="btn login-form__btn submit w-100">Sign In</button>
+                                    <a href="/Home/Index">
+                                        <button class="btn login-form__btn submit w-100">Sign In</button>
+                                    </a>
+                                    
                                 </form>
                                 <p class="mt-5 login-form__footer">Dont have account? <a href="/Register/Index" class="text-primary">Sign Up</a> now</p>
                             </div>

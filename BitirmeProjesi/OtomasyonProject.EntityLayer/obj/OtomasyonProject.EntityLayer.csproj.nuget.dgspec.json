@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\w10\\Desktop\\BitirmeProjesi\\BitirmeProjesi\\OtomasyonProject.EntityLayer\\OtomasyonProject.EntityLayer.csproj": {}
+    "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\OtomasyonProject.EntityLayer\\OtomasyonProject.EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\w10\\Desktop\\BitirmeProjesi\\BitirmeProjesi\\OtomasyonProject.EntityLayer\\OtomasyonProject.EntityLayer.csproj": {
+    "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\OtomasyonProject.EntityLayer\\OtomasyonProject.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\w10\\Desktop\\BitirmeProjesi\\BitirmeProjesi\\OtomasyonProject.EntityLayer\\OtomasyonProject.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\OtomasyonProject.EntityLayer\\OtomasyonProject.EntityLayer.csproj",
         "projectName": "OtomasyonProject.EntityLayer",
-        "projectPath": "C:\\Users\\w10\\Desktop\\BitirmeProjesi\\BitirmeProjesi\\OtomasyonProject.EntityLayer\\OtomasyonProject.EntityLayer.csproj",
+        "projectPath": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\OtomasyonProject.EntityLayer\\OtomasyonProject.EntityLayer.csproj",
         "packagesPath": "C:\\Users\\w10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\w10\\Desktop\\BitirmeProjesi\\BitirmeProjesi\\OtomasyonProject.EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\OtomasyonProject.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

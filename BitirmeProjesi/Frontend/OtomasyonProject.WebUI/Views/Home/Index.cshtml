@@ -1,8 +1,83 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<!DOCTYPE html>
+<html>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Mermerci Otomasyon</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />
+	<link href="~/simple_house/css/templatemo-style.css" rel="stylesheet" />
+</head>
+<!--Simple House
+https://templatemo.com/tm-539-simple-house-->
+<body>
+	<div class="container">
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="~/simple_house/img/simple-house-01.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="~/simple_house/img/simple-house-logo.png" alt="Logo" class="tm-site-logo" />
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Mermeci Otomasyon</h1>
+								<h6 class="tm-site-description">Bilge Adam Akademi</h6>
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="Index" class="tm-nav-link active">Anasayfa</a></li>
+								<li class="tm-nav-li"><a href="Privacy" class="tm-nav-link">İletişim</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Mermerci Otomasyon</h2>
+			</header>
+
+			<div class="tm-paging-links">
+				<nav>
+					<ul>
+						<li class="tm-paging-item"><a href="MarbleBlock/Index" class="tm-paging-link active">Mermer Blok</a></li>
+						<li class="tm-paging-item"><a href="Plate/Index" class="tm-paging-link">Mermer Plate</a></li>
+						<li class="tm-paging-item"><a href="Default/Index" class="tm-paging-link">Fatura</a></li>
+					</ul>
+				</nav>
+			</div>
+			<!-- Gallery -->
+			<div class="row tm-gallery">
+			</div>
+		</main>
+		<footer class="tm-footer text-center">
+			<p>
+				Otomasyon Project | Design:Betül Tuzcu
+			</p>
+		</footer>
+	</div>
+	<script src="~/simple_house/js/jquery.min.js"></script>
+	<script src="~/simple_house/js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			// Handle click on paging links
+			$('.tm-paging-link').click(function (e) {
+				e.preventDefault();
+
+				var page = $(this).text().toLowerCase();
+				$('.tm-gallery-page').addClass('hidden');
+				$('#tm-gallery-page-' + page).removeClass('hidden');
+				$('.tm-paging-link').removeClass('active');
+				$(this).addClass("active");
+			});
+		});
+	</script>
+</body>
+</html>
+

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7PZjtddJW6GGhK7pu5QtMV9JAp+VvI/MnYYzVsM94n5R63BZ6SONRHrvEGBzTGDRoRUyoPxXlG+Iu0+aFmI0rA==",
+  "dgSpecHash": "w5HcaLOxEI5Vr6FZt2Blr95Q3Dv4U0w6SXOlBhnZu1UUG6/k0K9wNr+zDadGsWXF5INgOooeZcoxih8NildNUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\w10\\Desktop\\BitirmeProjesi\\BitirmeProjesi\\OtomasyonProject.WebApi\\OtomasyonProject.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\w10\\Desktop\\MermerciOtomasyon\\BitirmeProjesi\\OtomasyonProject.WebApi\\OtomasyonProject.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\w10\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\w10\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
