@@ -64,6 +64,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyYmxlQmxvY2tcQWRkTWFyYmxlQmxvY2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/w10/Desktop/MermerciOtomasyon/BitirmeProjesi/Frontend/OtomasyonProject.WebUI/Views/MarbleBlock/DetailMarbleBlock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyYmxlQmxvY2tcRGV0YWlsTWFyYmxlQmxvY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/w10/Desktop/MermerciOtomasyon/BitirmeProjesi/Frontend/OtomasyonProject.WebUI/Views/MarbleBlock/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyYmxlQmxvY2tcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/w10/Desktop/MermerciOtomasyon/BitirmeProjesi/Frontend/OtomasyonProject.WebUI/Views/MarbleBlock/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyYmxlQmxvY2tcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -72,8 +80,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyYmxlQmxvY2tcVXBkYXRlTWFyYmxlQmxvY2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/w10/Desktop/MermerciOtomasyon/BitirmeProjesi/Frontend/OtomasyonProject.WebUI/Views/Plate/AddPlate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGVcQWRkUGxhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/w10/Desktop/MermerciOtomasyon/BitirmeProjesi/Frontend/OtomasyonProject.WebUI/Views/Plate/DetailPlate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGVcRGV0YWlsUGxhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/w10/Desktop/MermerciOtomasyon/BitirmeProjesi/Frontend/OtomasyonProject.WebUI/Views/Plate/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/w10/Desktop/MermerciOtomasyon/BitirmeProjesi/Frontend/OtomasyonProject.WebUI/Views/Plate/UpdatePlate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGVcVXBkYXRlUGxhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/w10/Desktop/MermerciOtomasyon/BitirmeProjesi/Frontend/OtomasyonProject.WebUI/Views/Register/Index.cshtml]

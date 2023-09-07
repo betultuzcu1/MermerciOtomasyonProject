@@ -1,0 +1,55 @@
+﻿@model List<PlateVM>
+@{
+    ViewData["Title"] = "DetailPlate";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<form method="get">
+   
+    
+    <div class="card">
+        <div class="card-header">
+            <h4>Plate Details</h4>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Width</th>
+                        <th scope="col">Height</th>
+                        <th scope="col">Thickness</th>
+                        <th scope="col">WarehouseSection</th>
+                        <th scope="col">PlateCode</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.PlateId</td>
+                            <td>@item.Width</td>
+                            <td>@item.Height</td>
+                            <td>@item.Thickness</td>
+                            <td>@item.PlateCode</td>
+                            <td>@item.WarehouseSection</td>
+                            
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+            
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+</form>
+

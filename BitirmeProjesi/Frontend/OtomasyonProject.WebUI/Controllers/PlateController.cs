@@ -86,5 +86,9 @@ namespace OtomasyonProject.WebUI.Controllers
             }
             return View();
         }
+        public IActionResult DetailPlate()
+        {
+            return View();
+        }
     }
 }

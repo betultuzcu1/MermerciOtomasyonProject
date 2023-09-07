@@ -1,0 +1,27 @@
+﻿@model AddPlateVM
+@{
+    ViewData["Title"] = "AddPlate";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+<form method="post">
+    <label>Width</label>
+    <input type="text" asp-for="Width" class="form-control" />
+    <br />
+    <label>Height</label>
+    <input type="text" asp-for="Height" class="form-control" />
+    <br />
+    <label>Thickness</label>
+    <input type="text" asp-for="Thickness" class="form-control" />
+    <br />
+    <label>WarehouseSection</label>
+    <input type="text" asp-for="WarehouseSection" class="form-control" />
+    <br />
+    <label>Plate Code</label>
+    <input type="text" asp-for="PlateCode" class="form-control" />
+    <br />
+    <label>Marble Block Id</label>
+    <input type="text" asp-for="MarbleBlockId" class="form-control" />
+    <br />
+    <button class="btn  mb-1 btn-rounded btn-primary">Add Plate</button>
+</form>
+
