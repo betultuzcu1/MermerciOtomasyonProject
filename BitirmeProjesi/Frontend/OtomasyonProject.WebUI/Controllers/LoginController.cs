@@ -23,19 +23,17 @@ namespace OtomasyonProject.WebUI.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(LoginUserDto loginUserDto)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(loginUserDto.Username,loginUserDto.Password,false,false);
-                if(result.Succeeded)
+                var result = await _signInManager.PasswordSignInAsync(loginUserDto.Username, loginUserDto.Password, false, false);
+                if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Staff");
-                }
-                else
-                {
-                    return View();
+                    return RedirectToAction("Index", "MarbleBlock");
                 }
             }
-            return View();
+
+            return View(loginUserDto); 
         }
+
     }
 }

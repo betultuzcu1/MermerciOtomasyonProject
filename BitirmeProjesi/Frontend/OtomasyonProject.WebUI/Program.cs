@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using OtomasyonProject.DAL.Concrete;
 using OtomasyonProject.EntityLayer.Concrete;
@@ -19,10 +20,12 @@ builder.Services.AddMvc(config =>
 });
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.Cookie.HttpOnly=true;
-    options.LoginPath = "Login/Index/";
-
+    options.Cookie.HttpOnly = true;
+    options.LoginPath = "{controller=Login}/{action=Index}/"; 
 });
+
+builder.Services.AddDataProtection().PersistKeysToFileSystem(new DirectoryInfo(Path.GetTempPath()));
+
 
 
 var app = builder.Build();

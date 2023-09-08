@@ -1,0 +1,33 @@
+﻿@model AddCurrentCardVM
+@{
+    ViewData["Title"] = "AddCurrentCard";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <label>CurrentCardId</label>
+    <input type="text" asp-for="CurrentCardId" class="form-control" />
+    <br />
+    <label>CurrentTitle</label>
+    <input type="text" asp-for="CurrentTitle" class="form-control" />
+    <br />
+    <label>CurrentOwner</label>
+    <input type="text" asp-for="CurrentOwner" class="form-control" />
+    <br />
+    <label>PhoneNumber</label>
+    <input type="text" asp-for="PhoneNumber" class="form-control" />
+    <br />
+    <label>Address</label>
+    <input type="text" asp-for="Address" class="form-control" />
+    <br />
+    <label>City</label>
+    <input type="text" asp-for="City" class="form-control" />
+    <br />
+    <label>Region</label>
+    <input type="text" asp-for="Region" class="form-control" />
+    <br />
+    <button class="btn  mb-1 btn-rounded btn-primary">Add Current</button>
+</form>
+
+
+

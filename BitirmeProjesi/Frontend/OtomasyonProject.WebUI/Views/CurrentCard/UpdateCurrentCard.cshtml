@@ -1,0 +1,36 @@
+﻿@model UpdateCurrentCardVM
+@{
+    ViewData["Title"] = "UpdateCurrentCard";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="CurrentCardId" />
+    <label>CurrentTitle</label>
+    <input type="text" asp-for="CurrentTitle" class="form-control" />
+    <br />
+    <label>CurrentOwner</label>
+    <input type="text" asp-for="CurrentOwner" class="form-control" />
+    <br />
+    <label>PhoneNumber</label>
+    <input type="text" asp-for="PhoneNumber" class="form-control" />
+    <br />
+    <label>Address</label>
+    <input type="text" asp-for="Address" class="form-control" />
+    <br />
+    <label>City</label>
+    <input type="text" asp-for="City" class="form-control" />
+    <br />
+    <label>Region</label>
+    <input type="text" asp-for="Region" class="form-control" />
+    <br />
+    <label>Mail</label>
+    <input type="text" asp-for="Mail" class="form-control" />
+    <br />
+    <button class="btn  mb-1 btn-rounded btn-primary">Update Current</button>
+</form>
+
+
+
+
+

@@ -1,0 +1,47 @@
+﻿@model List<CurrentCardVM>
+@{
+    ViewData["Title"] = "DetailICurrentDAL";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+<form method="post">
+    <div class="card">
+        <div class="card-header">
+            <h4>Current Details</h4>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">City</th>
+                        <th scope="col">Region</th>
+                        <th scope="col">Mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.CurrentCardId</td>
+                                <td>@item.Address</td>
+                                <td>@item.City</td>
+                                <td>@item.Region</td>
+                                <td>@item.Mail</td>
+                            </tr>
+                        }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</form>
+
+
+
+
+
+
+
+
