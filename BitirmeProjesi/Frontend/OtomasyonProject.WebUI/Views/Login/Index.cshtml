@@ -2,8 +2,6 @@
 @{
     Layout = null;
 }
-
-
 <!DOCTYPE html>
 <html class="h-100" lang="en">
 
@@ -38,7 +36,7 @@
                             <div class="card-body pt-5">
                                 <a class="text-center" href="index.html"> <h4>Otomasyon Giriş</h4></a>
 
-                                <form class="mt-5 mb-5 login-input" method="post">
+                                <form class="mt-5 mb-5 login-input" method="post" action="@Url.Action("Index", "MarbleBlock")">
                                     <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Username" asp-for="Username">
                                         <span asp-validation-for="Username" class="text-danger"></span>
@@ -47,9 +45,7 @@
                                         <input type="password" class="form-control" placeholder="Password" asp-for="Password">
                                         <span asp-validation-for="Password" class="text-danger"></span>
                                     </div>
-                                    <a  href="/MarbleBlock/Index">
-                                        <button class="btn login-form__btn submit w-100">Sign In</button>
-                                    </a>
+                                    <button type="submit" class="btn login-form__btn submit w-100">Sign In</button>
                                     
                                 </form>
                                 <p class="mt-5 login-form__footer">Dont have account? <a href="/Register/Index" class="text-primary">Sign Up</a> now</p>

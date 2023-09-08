@@ -28,8 +28,12 @@
                         <td>@item.Width</td>
                         <td>@item.Height</td>
                         <td>@item.Thickness</td>
-                        <td><a href="/MarbleBlock/DetailMarbleBlock/@item.MarbleBlockId" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a></td>
-                        <td>
+                       <td>
+                        <a href="@Url.Action("DetailMarbleBlock", "MarbleBlock", new { id = item.MarbleBlockId })" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a>
+                        </td>
+                        
+                            @* <td><a href="/MarbleBlock/DetailMarbleBlock/@item.MarbleBlockId" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a></td>*@
+                        <td> 
                             <a href="/MarbleBlock/DeleteMarbleBlock/@item.MarbleBlockId" class="btn  mb-1 btn-rounded btn-outline-danger">Sil</a>
                             <a href="/MarbleBlock/UpdateMarbleBlock/@item.MarbleBlockId" class="btn mb-1 btn-rounded btn-outline-success">Güncelle</a>
                         </td>

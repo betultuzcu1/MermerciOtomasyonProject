@@ -1,11 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using OtomasyonProject.DAL.Absctract;
 using OtomasyonProject.WebUI.Models.MarbleBlock;
 using OtomasyonProject.WebUI.Models.Plate;
 using System.Text;
 
 namespace OtomasyonProject.WebUI.Controllers
 {
+    [AllowAnonymous]
     public class PlateController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
@@ -86,9 +89,32 @@ namespace OtomasyonProject.WebUI.Controllers
             }
             return View();
         }
-        public IActionResult DetailPlate()
+        private readonly IPlateDAL _plateDAL;
+
+        public PlateController(IPlateDAL plateDAL)
         {
-            return View();
+            _plateDAL = plateDAL;
+        }
+
+
+        public ActionResult DetailPlate(int id)
+        {
+
+            var plate = _plateDAL.GetById(id);
+
+
+
+            var viewModel = new PlateVM
+            {
+                PlateId = plate.PlateId,
+                Width = plate.Width,
+                Height = plate.Height,
+                Thickness = plate.Thickness,
+               PlateCode = plate.PlateCode,
+                WarehouseSection = plate.WarehouseSection
+            };
+
+            return View(viewModel);
         }
     }
 }

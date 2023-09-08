@@ -3,10 +3,7 @@
     ViewData["Title"] = "DetailMarbleBlock";
     Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
 }
-
-
-
-<form method="get>
+<form method="post">
 <div class="card">
     <div class="card-header">
         <h4>Marble Block Details</h4>
@@ -26,20 +23,28 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td>@item.MarbleBlockId</td>
-                        <td>@item.Width</td>
-                        <td>@item.Height</td>
-                        <td>@item.Thickness</td>
-                        <td>@item.PurchaseDate</td>
-                        <td>@item.BlockCode</td>
-                        <td>@item.WarehouseSection</td>
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.MarbleBlockId</td>
+                                <td>@item.Width</td>
+                                <td>@item.Height</td>
+                                <td>@item.Thickness</td>
+                                <td>@item.PurchaseDate</td>
+                                <td>@item.BlockCode</td>
+                                <td>@item.WarehouseSection</td>
 
-                    </tr>
+                            </tr>
 
-                }
+                        }
+                    }
+                    else
+                    {
+                        <p>Veri bulunamadı.</p>
+                    }
+                
             </tbody>
         </table>
     </div>

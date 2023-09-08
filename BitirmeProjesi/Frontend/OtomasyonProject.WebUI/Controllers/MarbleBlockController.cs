@@ -1,10 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using OtomasyonProject.DAL.Absctract;
+using OtomasyonProject.DAL.EntityFramework;
+using OtomasyonProject.EntityLayer.Concrete;
 using OtomasyonProject.WebUI.Models.MarbleBlock;
 using System.Text;
 
 namespace OtomasyonProject.WebUI.Controllers
 {
+    [AllowAnonymous]
     public class MarbleBlockController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
@@ -86,9 +91,34 @@ namespace OtomasyonProject.WebUI.Controllers
             return View();
         }
 
-        public IActionResult DetailMarbleBlock()
+        private readonly IMarbleBlockDAL _marbleBlockDAL;
+
+        public MarbleBlockController(IMarbleBlockDAL marbleBlockDAL)
         {
-            return View();
+            _marbleBlockDAL = marbleBlockDAL;
+        }
+
+        
+        public ActionResult DetailMarbleBlock(int id)
+        {
+            
+            var marbleBlock = _marbleBlockDAL.GetById(id);
+
+            
+            
+            var viewModel = new MarbleBlockVM
+            {
+                MarbleBlockId = marbleBlock.MarbleBlockId,
+                Width = marbleBlock.Width,
+                Height = marbleBlock.Height,
+                Thickness=marbleBlock.Thickness,
+                PurchaseDate=marbleBlock.PurchaseDate,
+                BlockCode= marbleBlock.BlockCode,
+                WarehouseSection= marbleBlock.WarehouseSection
+            };
+
+            return View(viewModel);
         }
     }
+    
 }

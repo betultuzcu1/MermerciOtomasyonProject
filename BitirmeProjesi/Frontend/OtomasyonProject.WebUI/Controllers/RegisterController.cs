@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using OtomasyonProject.WebUI.Dtos.RegisterDto;
 using OtomasyonProject.EntityLayer.Concrete;
 using AppUser = OtomasyonProject.EntityLayer.Concrete.AppUser;
+using Microsoft.AspNetCore.Authorization;
 
 namespace OtomasyonProject.WebUI.Controllers
 {
+    [AllowAnonymous]
     public class RegisterController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
