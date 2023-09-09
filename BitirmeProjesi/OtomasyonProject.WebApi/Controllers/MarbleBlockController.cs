@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OtomasyonProject.BLL.Abstract;
+using OtomasyonProject.DAL.Absctract;
 using OtomasyonProject.EntityLayer.Concrete;
 
 namespace OtomasyonProject.WebApi.Controllers
@@ -9,11 +10,14 @@ namespace OtomasyonProject.WebApi.Controllers
     [ApiController]
     public class MarbleBlockController : ControllerBase
     {
+        
+        private readonly IMarbleBlockDAL _marbleBlockDAL;
         private readonly IMarbleBlockService _marbleBlockService;
 
-        public MarbleBlockController(IMarbleBlockService marbleBlockService)
+        public MarbleBlockController(IMarbleBlockService marbleBlockService, IMarbleBlockDAL marbleBlockDAL)
         {
             _marbleBlockService = marbleBlockService;
+            _marbleBlockDAL = marbleBlockDAL;
         }
         [HttpGet]
 

@@ -7,6 +7,7 @@ using OtomasyonProject.WebUI.Dtos.LoginDto;
 namespace OtomasyonProject.WebUI.Controllers
 {
     [AllowAnonymous]
+
     public class LoginController : Controller
     {
         private readonly SignInManager<AppUser> _signInManager;
@@ -28,7 +29,7 @@ namespace OtomasyonProject.WebUI.Controllers
                 var result = await _signInManager.PasswordSignInAsync(loginUserDto.Username, loginUserDto.Password, false, false);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "MarbleBlock");
+                    return RedirectToAction("Index","MarbleBlock");
                 }
             }
 

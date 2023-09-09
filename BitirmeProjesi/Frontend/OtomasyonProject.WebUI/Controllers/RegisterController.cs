@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace OtomasyonProject.WebUI.Controllers
 {
     [AllowAnonymous]
+
     public class RegisterController : Controller
     {
         private readonly UserManager<AppUser> _userManager;

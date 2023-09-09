@@ -1,0 +1,24 @@
+﻿@model UpdateVoucherVM
+@{
+    ViewData["Title"] = "UpdateVoucher";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+<form method="post">
+    <input type="hidden" asp-for="VoucherId" />
+    <label>VoucherType</label>
+    <input type="text" asp-for="VoucherType" class="form-control" />
+    <br />
+    <label>VoucherDate</label>
+    <input type="text" asp-for="VoucherDate" class="form-control" />
+    <br />
+    <label>CurrentCardId</label>
+    <input type="text" asp-for="CurrentCardId" class="form-control" />
+    <br />
+    
+    <button class="btn  mb-1 btn-rounded btn-primary">Update Voucher</button>
+</form>
+
+
+
+
+

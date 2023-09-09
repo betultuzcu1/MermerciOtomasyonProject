@@ -34,6 +34,8 @@ builder.Services.AddScoped<ICurrentCardService, CurrentCardManager>();
 
 
 
+
+
 builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("OtomasyonApiCors", opts =>

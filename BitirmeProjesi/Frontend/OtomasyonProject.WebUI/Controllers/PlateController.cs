@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using OtomasyonProject.DAL.Absctract;
+using OtomasyonProject.DAL.EntityFramework;
 using OtomasyonProject.WebUI.Models.MarbleBlock;
 using OtomasyonProject.WebUI.Models.Plate;
 using System.Text;
@@ -9,13 +10,16 @@ using System.Text;
 namespace OtomasyonProject.WebUI.Controllers
 {
     [AllowAnonymous]
+
     public class PlateController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IPlateDAL _plateDAL;
 
-        public PlateController(IHttpClientFactory httpClientFactory)
+        public PlateController(IHttpClientFactory httpClientFactory, IPlateDAL plateDAL)
         {
             _httpClientFactory = httpClientFactory;
+            _plateDAL = plateDAL;
         }
 
         public async Task<IActionResult> Index()
@@ -89,12 +93,7 @@ namespace OtomasyonProject.WebUI.Controllers
             }
             return View();
         }
-        private readonly IPlateDAL _plateDAL;
-
-        public PlateController(IPlateDAL plateDAL)
-        {
-            _plateDAL = plateDAL;
-        }
+        
 
 
         public ActionResult DetailPlate(int id)

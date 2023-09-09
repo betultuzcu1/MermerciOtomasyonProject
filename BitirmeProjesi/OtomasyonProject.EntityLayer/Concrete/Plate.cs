@@ -15,5 +15,7 @@ namespace OtomasyonProject.EntityLayer.Concrete
         public string WarehouseSection { get; set; }
         public string PlateCode { get; set; }
         public int MarbleBlockId { get; set; }
+
+        public MarbleBlock MarbleBlock { get; set; }
     }
 }

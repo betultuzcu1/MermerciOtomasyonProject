@@ -1,0 +1,55 @@
+﻿@model List<VoucherVM>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+<div class="card">
+    <div class="card-header">
+        <h4>Voucher</h4>
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">VoucherType</th>
+                    <th scope="col">VoucherDate</th>
+                    <th scope="col">CreationDate</th>
+                    <th scope="col">Details</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.VoucherId</td>
+                        <td>@item.VoucherType</td>
+                        <td>@item.VoucherDate</td>
+                        <td>@item.CreationDate</td>
+                        <td>
+                            <a href="@Url.Action("DetailVoucher", "Voucher", new { id = item.VoucherId })" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a>
+                        </td>
+
+                        @* <td><a href="/MarbleBlock/DetailMarbleBlock/@item.MarbleBlockId" class="btn mb-1 btn-rounded btn-outline-dark">Detaylar</a></td>*@
+                        <td>
+                            <a href="/MarbleBlock/DeleteMarbleBlock/@item.VoucherId" class="btn  mb-1 btn-rounded btn-outline-danger">Sil</a>
+                            <a href="/MarbleBlock/UpdateMarbleBlock/@item.VoucherId" class="btn mb-1 btn-rounded btn-outline-success">Güncelle</a>
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+        <div>
+            <a href="/MarbleBlock/AddMarbleBlock/" class="btn mb-1 btn-rounded btn-outline-danger">Add Voucher</a>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+

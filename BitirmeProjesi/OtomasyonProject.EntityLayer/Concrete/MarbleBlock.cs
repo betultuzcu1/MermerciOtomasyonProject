@@ -8,6 +8,7 @@ namespace OtomasyonProject.EntityLayer.Concrete
 {
     public class MarbleBlock
     {
+        
         public int MarbleBlockId { get; set; }
         public int StockId { get; set; }
         public float Width { get; set; }
@@ -16,6 +17,10 @@ namespace OtomasyonProject.EntityLayer.Concrete
         public DateTime PurchaseDate { get; set; }
         public string BlockCode { get; set; }
         public string WarehouseSection { get; set; }
+
+        public List<Plate> Plates { get; set; }
+
+        public Stock Stock { get; set; }
 
     }
 }

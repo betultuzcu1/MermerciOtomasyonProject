@@ -14,6 +14,8 @@ namespace OtomasyonProject.EntityLayer.Concrete
         public int Quantity { get; set; } 
         public decimal UnitPrice { get; set; } 
         public decimal TotalPrice { get; set; } 
+        public Stock Stock { get; set; }
+        public Voucher Voucher { get; set; }
         
     }
 }

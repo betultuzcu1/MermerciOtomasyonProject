@@ -317,6 +317,8 @@ namespace OtomasyonProject.DAL.Migrations
 
                     b.HasKey("MarbleBlockId");
 
+                    b.HasIndex("StockId");
+
                     b.ToTable("MarbleBlocks");
                 });
 
@@ -349,6 +351,8 @@ namespace OtomasyonProject.DAL.Migrations
                         .HasColumnType("real");
 
                     b.HasKey("PlateId");
+
+                    b.HasIndex("MarbleBlockId");
 
                     b.ToTable("Plates");
                 });
@@ -400,6 +404,9 @@ namespace OtomasyonProject.DAL.Migrations
                     b.Property<int>("CurrentCardId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("StockId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("UpdateDate")
                         .HasColumnType("datetime2");
 
@@ -411,6 +418,10 @@ namespace OtomasyonProject.DAL.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("VoucherId");
+
+                    b.HasIndex("CurrentCardId");
+
+                    b.HasIndex("StockId");
 
                     b.ToTable("Vouchers");
                 });
@@ -439,6 +450,10 @@ namespace OtomasyonProject.DAL.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("VoucherItemID");
+
+                    b.HasIndex("StockID");
+
+                    b.HasIndex("VoucherID");
 
                     b.ToTable("VoucherItems");
                 });
@@ -492,6 +507,84 @@ namespace OtomasyonProject.DAL.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("OtomasyonProject.EntityLayer.Concrete.MarbleBlock", b =>
+                {
+                    b.HasOne("OtomasyonProject.EntityLayer.Concrete.Stock", "Stock")
+                        .WithMany("MarbleBlocks")
+                        .HasForeignKey("StockId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Stock");
+                });
+
+            modelBuilder.Entity("OtomasyonProject.EntityLayer.Concrete.Plate", b =>
+                {
+                    b.HasOne("OtomasyonProject.EntityLayer.Concrete.MarbleBlock", "MarbleBlock")
+                        .WithMany("Plates")
+                        .HasForeignKey("MarbleBlockId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("MarbleBlock");
+                });
+
+            modelBuilder.Entity("OtomasyonProject.EntityLayer.Concrete.Voucher", b =>
+                {
+                    b.HasOne("OtomasyonProject.EntityLayer.Concrete.CurrentCard", "CurrentCard")
+                        .WithMany("Vouchers")
+                        .HasForeignKey("CurrentCardId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("OtomasyonProject.EntityLayer.Concrete.Stock", null)
+                        .WithMany("Vouchers")
+                        .HasForeignKey("StockId");
+
+                    b.Navigation("CurrentCard");
+                });
+
+            modelBuilder.Entity("OtomasyonProject.EntityLayer.Concrete.VoucherItem", b =>
+                {
+                    b.HasOne("OtomasyonProject.EntityLayer.Concrete.Stock", "Stock")
+                        .WithMany()
+                        .HasForeignKey("StockID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("OtomasyonProject.EntityLayer.Concrete.Voucher", "Voucher")
+                        .WithMany("VoucherItems")
+                        .HasForeignKey("VoucherID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Stock");
+
+                    b.Navigation("Voucher");
+                });
+
+            modelBuilder.Entity("OtomasyonProject.EntityLayer.Concrete.CurrentCard", b =>
+                {
+                    b.Navigation("Vouchers");
+                });
+
+            modelBuilder.Entity("OtomasyonProject.EntityLayer.Concrete.MarbleBlock", b =>
+                {
+                    b.Navigation("Plates");
+                });
+
+            modelBuilder.Entity("OtomasyonProject.EntityLayer.Concrete.Stock", b =>
+                {
+                    b.Navigation("MarbleBlocks");
+
+                    b.Navigation("Vouchers");
+                });
+
+            modelBuilder.Entity("OtomasyonProject.EntityLayer.Concrete.Voucher", b =>
+                {
+                    b.Navigation("VoucherItems");
                 });
 #pragma warning restore 612, 618
         }

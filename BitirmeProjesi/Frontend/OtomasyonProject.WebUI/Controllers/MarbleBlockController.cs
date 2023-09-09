@@ -2,10 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using OtomasyonProject.DAL.Absctract;
-using OtomasyonProject.DAL.EntityFramework;
-using OtomasyonProject.EntityLayer.Concrete;
 using OtomasyonProject.WebUI.Models.MarbleBlock;
 using System.Text;
+
 
 namespace OtomasyonProject.WebUI.Controllers
 {
@@ -13,44 +12,45 @@ namespace OtomasyonProject.WebUI.Controllers
     public class MarbleBlockController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IMarbleBlockDAL _marbleBlockDAL;
 
-        public MarbleBlockController(IHttpClientFactory httpClientFactory)
+        public MarbleBlockController(IHttpClientFactory httpClientFactory, IMarbleBlockDAL marbleBlockDAL)
         {
             _httpClientFactory = httpClientFactory;
+            _marbleBlockDAL = marbleBlockDAL;
         }
 
         public async Task<IActionResult> Index()
         {
-            var client=_httpClientFactory.CreateClient();
+            var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("http://localhost:5213/api/MarbleBlock");
-            if(responseMessage.IsSuccessStatusCode)
+            if (responseMessage.IsSuccessStatusCode)
             {
-                var jsonData=await responseMessage.Content.ReadAsStringAsync();
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
                 var values = JsonConvert.DeserializeObject<List<MarbleBlockVM>>(jsonData);
                 return View(values);
-
             }
             return View();
         }
+
         [HttpGet]
         public IActionResult AddMarbleBlock()
         {
             return View();
         }
+
         [HttpPost]
         public async Task<IActionResult> AddMarbleBlock(AddMarbleBlockVM model)
         {
-
             var client = _httpClientFactory.CreateClient();
-            var jsonData=JsonConvert.SerializeObject(model);
-            StringContent stringContent=new StringContent(jsonData,Encoding.UTF8,"aplication/json");
-            var responseMessage = await client.PostAsync("http://localhost:5213/api/MarbleBlock",stringContent);
-            if(responseMessage.IsSuccessStatusCode )
+            var jsonData = JsonConvert.SerializeObject(model);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PostAsync("http://localhost:5213/api/MarbleBlock", stringContent);
+            if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
             }
             return View();
-
         }
 
         public async Task<IActionResult> DeleteMarbleBlock(int id)
@@ -69,21 +69,22 @@ namespace OtomasyonProject.WebUI.Controllers
         {
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync($"http://localhost:5213/api/MarbleBlock/{id}");
-            if(responseMessage.IsSuccessStatusCode)
+            if (responseMessage.IsSuccessStatusCode)
             {
-                var jsonData=await responseMessage.Content.ReadAsStringAsync();
-                var values=JsonConvert.DeserializeObject<UpdateMarbleBlockVM>(jsonData);
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<UpdateMarbleBlockVM>(jsonData);
                 return View(values);
             }
             return View();
         }
+
         [HttpPost]
         public async Task<IActionResult> UpdateMarbleBlock(UpdateMarbleBlockVM model)
         {
             var client = _httpClientFactory.CreateClient();
-            var jsonData=JsonConvert.SerializeObject(model);
-            StringContent stringContent = new StringContent(jsonData,Encoding.UTF8,"aplication/json");
-            var responseMessage = await client.PutAsync("http://localhost:5213/api/MarbleBlock/",stringContent);
+            var jsonData = JsonConvert.SerializeObject(model);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PutAsync("http://localhost:5213/api/MarbleBlock/", stringContent);
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
@@ -91,34 +92,20 @@ namespace OtomasyonProject.WebUI.Controllers
             return View();
         }
 
-        private readonly IMarbleBlockDAL _marbleBlockDAL;
-
-        public MarbleBlockController(IMarbleBlockDAL marbleBlockDAL)
+        public IActionResult DetailMarbleBlock(int id)
         {
-            _marbleBlockDAL = marbleBlockDAL;
-        }
-
-        
-        public ActionResult DetailMarbleBlock(int id)
-        {
-            
             var marbleBlock = _marbleBlockDAL.GetById(id);
-
-            
-            
             var viewModel = new MarbleBlockVM
             {
                 MarbleBlockId = marbleBlock.MarbleBlockId,
                 Width = marbleBlock.Width,
                 Height = marbleBlock.Height,
-                Thickness=marbleBlock.Thickness,
-                PurchaseDate=marbleBlock.PurchaseDate,
-                BlockCode= marbleBlock.BlockCode,
-                WarehouseSection= marbleBlock.WarehouseSection
+                Thickness = marbleBlock.Thickness,
+                PurchaseDate = marbleBlock.PurchaseDate,
+                BlockCode = marbleBlock.BlockCode,
+                WarehouseSection = marbleBlock.WarehouseSection
             };
-
             return View(viewModel);
         }
     }
-    
 }

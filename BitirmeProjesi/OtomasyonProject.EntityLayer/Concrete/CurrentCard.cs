@@ -19,6 +19,7 @@ namespace OtomasyonProject.EntityLayer.Concrete
         public bool IsActive { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime UpdateDate { get; set; }
+        public List<Voucher> Vouchers { get; set; }
 
     }
 }

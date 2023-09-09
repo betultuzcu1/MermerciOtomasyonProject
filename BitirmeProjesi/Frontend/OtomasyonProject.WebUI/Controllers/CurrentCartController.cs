@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using OtomasyonProject.DAL.Absctract;
 using OtomasyonProject.WebUI.Models.CurrentCard;
@@ -6,13 +7,16 @@ using System.Text;
 
 namespace OtomasyonProject.WebUI.Controllers
 {
+    [AllowAnonymous]
     public class CurrentCardController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ICurrentDAL _currentDAL;
 
-        public CurrentCardController(IHttpClientFactory httpClientFactory)
+        public CurrentCardController(IHttpClientFactory httpClientFactory, ICurrentDAL currentDAL)
         {
             _httpClientFactory = httpClientFactory;
+            _currentDAL = currentDAL;
         }
 
         public async Task<IActionResult> Index()
@@ -87,12 +91,7 @@ namespace OtomasyonProject.WebUI.Controllers
             return View();
         }
 
-        private readonly ICurrentDAL _currentDAL;
-
-        public CurrentCardController(ICurrentDAL currentDAL)
-        {
-            _currentDAL = currentDAL;
-        }
+        
 
 
         public ActionResult DetailICurrentDAL(int id)

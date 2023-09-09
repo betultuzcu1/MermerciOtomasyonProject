@@ -15,5 +15,7 @@ namespace OtomasyonProject.EntityLayer.Concrete
         public DateTime UpdateDate { get; set; }
         public int Quantity { get; set; }
         public decimal UnitPrice { get; set; }
+        public MarbleBlock MarbleBlock { get; set; }
+        public List<Voucher> Vouchers{ get; set; }
     }
 }

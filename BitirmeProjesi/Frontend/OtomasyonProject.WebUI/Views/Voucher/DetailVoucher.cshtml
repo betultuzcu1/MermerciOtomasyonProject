@@ -1,0 +1,45 @@
+﻿@model List<VoucherVM>
+@{
+    ViewData["Title"] = "DetailVoucher";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+<form method="post">
+    <div class="card">
+        <div class="card-header">
+            <h4>Voucher Details</h4>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">CurrentCardId</th>
+                        <th scope="col">CreationDate</th>
+                        <th scope="col">UpdateDate</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.VoucherId</td>
+                            <td>@item.CurrentCardId</td>
+                            <td>@item.CreationDate</td>
+                            <td>@item.UpdateDate</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</form>
+
+
+
+
+
+
+
+

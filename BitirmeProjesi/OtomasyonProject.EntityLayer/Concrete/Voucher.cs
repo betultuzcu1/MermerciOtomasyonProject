@@ -14,6 +14,8 @@ namespace OtomasyonProject.EntityLayer.Concrete
         public int CurrentCardId { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime UpdateDate { get; set; }
+        public List<VoucherItem> VoucherItems { get; set; }
+        public CurrentCard CurrentCard { get; set; }
 
     }
 }
